@@ -1,5 +1,5 @@
 # About project
-This service focused on microservices building&coding and contains no business-logic.
+This project's focused on microservices building&coding and contains no business-logic.
 
 ## Features
 - Secured using Keycloak
