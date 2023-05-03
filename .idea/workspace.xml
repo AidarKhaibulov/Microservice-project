@@ -4,66 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de7dc20-a325-45a7-bab7-4604f72cbabe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00834f98399b584a2c7cecd9fb7d22cfb9ac2f41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d418cb5cc4c9abf28107e1c921733c24f77ffc1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc2a2c952daf7a2a52c23970f56be6d41ca9ea97" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00834f98399b584a2c7cecd9fb7d22cfb9ac2f41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4d418cb5cc4c9abf28107e1c921733c24f77ffc1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/c/bc2a2c952daf7a2a52c23970f56be6d41ca9ea97" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile.layered" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/TestAPI.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ms/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ms/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/ms/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/ms/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/ms/NotificationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/ms/PlayingEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="8de7dc20-a325-45a7-bab7-4604f72cbabe" name="Changes" comment="dockerized">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/play-service/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/TestAPI.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/PlayService/PlayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/PlayService/config/PlayCongig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/PlayService/controllers/PlayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/PlayService/dto/TrackResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/PlayService/services/PlayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/java/com/ms/events/PlayingEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/play-service/src/test/java/com/ms/PlayService/PlayServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realms/realm-export.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/TrackServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/controllers/TrackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/dto/TrackResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/dto/UploadRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/models/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/repositories/TrackRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/java/com/ms/trackservice/services/TrackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/track-service/src/test/java/com/ms/trackservice/TrackServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/Users/Aidar/Downloads/spring-boot-microservices-initial-setup",
@@ -318,12 +263,24 @@
       <workItem from="1683096542191" duration="79000" />
       <workItem from="1683096701829" duration="1122000" />
       <workItem from="1683104870632" duration="8674000" />
-      <workItem from="1683133138099" duration="4789000" />
+      <workItem from="1683133138099" duration="6088000" />
     </task>
+    <task id="LOCAL-00001" summary="dockerized">
+      <created>1683138309499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683138309500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dockerized" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerized" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
